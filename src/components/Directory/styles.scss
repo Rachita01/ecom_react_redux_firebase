@@ -1,0 +1,47 @@
+.Directory{
+    .wrap{
+        display:inline-block;
+        height:100%;
+        width:100%;
+        line-height:48;
+        margin-top:5px;
+    
+    .item{
+        width:50%;
+         height:100%;
+         float:left;
+         position:relative;
+         background-position: center;
+         background-repeat: no-repeat;
+         background-size: cover;
+         &::after{
+             content:'';
+             position: absolute;
+             top:0;
+             left:0;
+             background-color: rgba(0,0,0,0.3);
+             width:100%;
+             height:100%;
+             z-index:1;
+         }
+
+    a{  
+        cursor: pointer;
+        background:white;  
+        margin-left: 28%; 
+        font-weight: 600;
+        font-size:20px;
+        line-height: 1;
+        z-index:2;
+        text-transform: uppercase;
+        transform: translate(-50%,-50%);
+        -webkit-transform: translate(-50%,-50%);
+        -moz-transform: translate(-50%,-50%);
+        padding:8px 10px;
+        border:1px solid black;
+        color:black;
+       
+    }
+}
+}
+}
