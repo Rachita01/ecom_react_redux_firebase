@@ -10,3 +10,32 @@
     display:block;
     left:5px;
 }
+
+.CallToAction{
+    position:absolute;
+    top:4%;
+    left:85%;
+    -webkit-transform: translateY(-50%);
+    transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+
+}
+
+ul,li{
+    margin: 0;
+    padding: 0;
+    display:inline-block;
+}
+
+li{ 
+    margin-left: 60px;
+    list-style-type:none;
+
+    a{
+        font-size:1.8rem;
+        text-transform: uppercase;
+        color:black;
+        text-decoration: none;
+        line-height: 1;
+    }
+}
