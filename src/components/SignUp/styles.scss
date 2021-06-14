@@ -1,4 +1,4 @@
-.signin{
+.signup{
     display:block;
     width:100%;
     max-width:40.0rem;
@@ -21,7 +21,13 @@
         }
 
         .socialSignin{
-            margin:.5rem auto 0;
+            margin:30px;
+        }
+
+        .formWrap
+        {
+            margin:3rem auto;
         }
     }
 }
+
